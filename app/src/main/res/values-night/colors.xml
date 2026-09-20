@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="icon_bg">#000</color>
+    <color name="black">#000000</color>
+    <!-- zetta: floating liquid glass nav pill -->
+    <color name="nav_pill_bg">#D9141416</color>
+    <color name="nav_pill_stroke">#2EFFFFFF</color>
+    <color name="nav_pill_sheen">#1FFFFFFF</color>
+</resources>

@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:key="appearance"
+        app:icon="@drawable/ic_settings"
+        android:title="@string/general"/>
+
+    <Preference
+        android:key="folders"
+        app:icon="@drawable/baseline_folder_24"
+        android:title="@string/directories"/>
+
+    <Preference
+        android:key="downloading"
+        app:icon="@drawable/ic_downloads"
+        android:title="@string/downloads"/>
+
+    <Preference
+        android:key="updating"
+        app:icon="@drawable/ic_update"
+        android:title="@string/packages"/>
+
+    <Preference
+        android:key="advanced"
+        app:icon="@drawable/baseline_settings_suggest_24"
+        android:title="@string/advanced"/>
+
+    <PreferenceCategory android:title="@string/about" >
+        <Preference
+            app:icon="@drawable/ic_discord"
+            app:key="discord"
+            app:summary="discord.gg/BmDSBJUMd"
+            app:allowDividerBelow="true"
+            app:title="Discord">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://discord.gg/BmDSBJUMd" />
+        </Preference>
+        <Preference
+            app:icon="@drawable/ic_whatsapp"
+            app:key="whatsapp_connector"
+            app:summary="@string/whatsapp_connector_summary"
+            app:title="@string/whatsapp_connector" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

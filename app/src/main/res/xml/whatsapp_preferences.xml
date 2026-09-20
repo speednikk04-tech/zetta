@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/whatsapp_connector">
+
+        <SwitchPreferenceCompat
+            android:widgetLayout="@layout/preferece_material_switch"
+            app:defaultValue="false"
+            app:key="whatsapp_enabled"
+            app:title="@string/whatsapp_enabled"
+            app:summary="@string/whatsapp_enabled_summary" />
+
+        <SwitchPreferenceCompat
+            android:widgetLayout="@layout/preferece_material_switch"
+            app:defaultValue="false"
+            app:key="whatsapp_auto_send"
+            app:title="@string/whatsapp_auto_send"
+            app:summary="@string/whatsapp_auto_send_summary" />
+
+        <EditTextPreference
+            app:key="whatsapp_contact"
+            app:title="@string/whatsapp_contact"
+            app:summary="@string/whatsapp_contact_summary"
+            app:dialogTitle="@string/whatsapp_contact_dialog_title" />
+
+        <EditTextPreference
+            app:key="whatsapp_message_template"
+            app:title="@string/whatsapp_message_template"
+            app:summary="@string/whatsapp_message_template_summary"
+            app:dialogTitle="@string/whatsapp_message_template_dialog_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
